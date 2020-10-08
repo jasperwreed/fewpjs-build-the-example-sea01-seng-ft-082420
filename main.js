@@ -26,7 +26,7 @@ const serverCall = (e) => {
     console.log('hi')
     window.setTimeout(() => modal.className = 'hidden', 5000)
     modal.className = ''
-    // alert(error)
+    alert(error)
     
   })
 }
